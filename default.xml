@@ -34,7 +34,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="android_dalvik" remote="eclipse" revision="jb422" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="eclipse" revision="jb422" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -49,10 +49,10 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="eclipse" revision="jb422" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="eclipse" revision="jb422" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="eclipse" revision="jb422" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
