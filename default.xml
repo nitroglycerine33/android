@@ -252,7 +252,7 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="eclipse" revision="cm-10.1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="eclipse" revision="cm-10.1" />
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="eclipse" revision="cm-10.1" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.1" />
