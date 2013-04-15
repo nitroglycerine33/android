@@ -90,7 +90,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.1" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.1" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
