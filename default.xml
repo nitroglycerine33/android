@@ -18,6 +18,9 @@
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
+           
+  <remote  name="gh"
+           fetch="git://github.com/" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
