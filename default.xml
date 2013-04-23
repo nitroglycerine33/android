@@ -282,6 +282,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="android_libcore" remote="eclipse" revision="jb422" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -295,6 +296,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="eclipse" revision="jb422" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1"/>
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="eclipse" revision="jb422" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="eclipse" revision="jb422" />
   <project path="packages/apps/FileManager" name="packages_apps_FileManager" remote="eclipse" revision="jb422" />
@@ -305,7 +307,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="eclipse" revision="jb422" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_NFC" remote="eclipse" revision="jb422" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="eclipse" revision="jb422" />
@@ -403,7 +404,8 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
-  
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.1" /> 
+
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/iproj" name="lge-kernel-iproj" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
