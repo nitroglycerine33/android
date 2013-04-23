@@ -310,7 +310,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_NFC" remote="eclipse" revision="jb422" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="eclipse" revision="jb422" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="eclipse" revision="cm-10.1" />
