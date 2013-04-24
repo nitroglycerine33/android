@@ -284,7 +284,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.1" />
-  <project path="libcore" name="android_libcore" remote="cm" revision="jb422" />
+  <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
