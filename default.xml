@@ -386,7 +386,8 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.1" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
- 
+
+  <project path="vendor/cm" name="android_vendor_cm" remote="eclipse" revision="master" />
   <project path="vendor/eclipse" name="android_vendor_eclipse" remote="eclipse" revision="jb422" />
   
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.1" />
