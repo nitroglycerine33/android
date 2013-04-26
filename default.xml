@@ -58,16 +58,16 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="eclipse" revision="jb422" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="eclipse" revision="jb422" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/i605" name="android_device_samsung_i605" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="eclipse" revision="cm-10.1" />
-  <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="eclipse" revision="cm-10.1" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/t0ltecdma" name="android_device_samsung_t0ltecdma" remote="cm" revision="cm-10.1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
