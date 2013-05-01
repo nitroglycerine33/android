@@ -59,6 +59,8 @@
   <project path="device/motorola/umts_spyder" name="android_device_motorola_umts_spyder" remote="cm" revision="cm-10.1" />
   <project path="device/motorola/omap4-common" name="android_device_motorola_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/fascinatemtd" name="device_samsung_fascinatemtd" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="eclipse" revision="jb422" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="eclipse" revision="jb422" />
@@ -419,6 +421,7 @@
   <project path="kernel/lge/iproj" name="lge-kernel-iproj" remote="cm" revision="cm-10.1" />
   <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="kernel/motorola/omap4-kexec-common" name="android_kernel_motorola_omap4-kexec-common" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
