@@ -61,10 +61,10 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/fascinatemtd" name="android_device_samsung_fascinatemtd" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="eclipse" revision="jb422" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="eclipse" revision="jb422" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="eclipse" revision="jb422" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.1" />
