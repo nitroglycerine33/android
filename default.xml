@@ -65,7 +65,7 @@
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="eclipse" revision="jb422" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
