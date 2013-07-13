@@ -35,11 +35,9 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="build" revision="jb422" remote="eclipse">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
-  <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
