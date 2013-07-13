@@ -27,10 +27,6 @@
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
            
-  <remote  name="razrqcom"
-           fetch="git://github.com/razrqcom-dev-team/" />
-
-
   <default revision="refs/tags/cm-10.1.2"
            remote="github"
            sync-c="true"
@@ -447,15 +443,5 @@
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
   
-  <project name="android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_device_motorola_vanquish-common" path="device/motorola/vanquish-common" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_device_motorola_xt907" path="device/motorola/xt907" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_device_motorola_xt925" path="device/motorola/xt925" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_device_motorola_xt926" path="device/motorola/xt926" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_vendor_motorola_xt907" path="vendor/motorola/xt907" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_vendor_motorola_xt925" path="vendor/motorola/xt925" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_vendor_motorola_xt926" path="vendor/motorola/xt926" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="razrqcom" revision="cm-10.1" />
-  <project name="android_vendor_motorola_msm8960-common" path="vendor/motorola/msm8960-common" remote="razrqcom" revision="cm-10.1" />
 </manifest>
  
