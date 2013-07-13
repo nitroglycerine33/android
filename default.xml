@@ -11,21 +11,6 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-     
-  <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/" />
-
-  <remote  name="cr"
-           fetch="git://github.com/CarbonDev/" />
-	  
-  <remote name="eclipse"
-         fetch="git://github.com/nitroglycerine33/" />
-	 
-  <remote  name="koush"
-           fetch="git://github.com/koush/" />
-
-  <remote  name="tm"
-           fetch="git://github.com/TheMuppets/" />
            
   <default revision="refs/tags/cm-10.1.2"
            remote="github"
