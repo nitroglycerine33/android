@@ -19,6 +19,9 @@
            
   <remote name="eclipse"
          fetch="git://github.com/nitroglycerine33/" />
+         
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
 
 <project path="build" name="build" revision="jb422" remote="eclipse">
     <copyfile src="core/root.mk" dest="Makefile" />
