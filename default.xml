@@ -16,6 +16,9 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+           
+  <remote name="eclipse"
+         fetch="git://github.com/nitroglycerine33/" />
 
 <project path="build" name="build" revision="jb422" remote="eclipse">
     <copyfile src="core/root.mk" dest="Makefile" />
