@@ -30,7 +30,7 @@
   <remote  name="gh"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/cm-10.1.2"
+  <default revision="refs/tags/cm-10.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
