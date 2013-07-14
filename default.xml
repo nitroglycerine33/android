@@ -30,7 +30,7 @@
   <remote  name="gh"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/cm-10.1"
+  <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -126,6 +126,7 @@
   <project path="external/embunit" name="CyanogenMod/android_external_embunit" />
   <project path="external/emma" name="CyanogenMod/android_external_emma" />
   <project path="external/esd" name="CyanogenMod/android_external_esd" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
   <project path="external/fat32lib" name="CyanogenMod/android_external_fat32lib" />
@@ -133,10 +134,12 @@
   <project path="external/flac" name="CyanogenMod/android_external_flac" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" />
   <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
   <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
+  <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/google-diff-match-patch" name="CyanogenMod/android_external_google-diff-match-patch" />
   <project path="external/grub" name="CyanogenMod/android_external_grub" />
   <project path="external/gtest" name="CyanogenMod/android_external_gtest" />
@@ -206,6 +209,7 @@
   <project path="external/netperf" name="CyanogenMod/android_external_netperf" />
   <project path="external/neven" name="CyanogenMod/android_external_neven" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" />
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" />
@@ -300,6 +304,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
@@ -342,7 +347,6 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="eclipse" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
@@ -423,6 +427,7 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
   <project path="vendor/eclipse" name="android_vendor_eclipse" remote="eclipse" revision="jb422" />
   
