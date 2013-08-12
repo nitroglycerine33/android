@@ -20,7 +20,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="AOSP-S4/android_dalvik" remote="github" revision="jb-4.3" />
+  <project path="dalvik" name="Cyanogenmod/android_dalvik" remote="github" revision="cm-10.2" />
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="cm-10.2" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="github" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
