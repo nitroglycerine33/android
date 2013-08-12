@@ -16,11 +16,11 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="jb-4.3" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="AOSP-S4/android_dalvik" remote="github" revision="jb-4.3" />
+  <project path="dalvik" name="Cyanogenmod/android_dalvik" remote="github" revision="jb-4.3" />
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="cm-10.2" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="github" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -33,8 +33,8 @@
   <project path="device/samsung/jf-common" name="AOSP-S4/android_device_samsung_jf-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_samsung_jfltexx" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltevzw" name="nitroglycerine33/android_device_samsung_jfltevzw" groups="pdk" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="jb-4.3" />
-  <project path="device/samsung/qcom-common" name="AOSP-S4/android_device_samsung_qcom-common" groups="pdk" remote="github" revision="jb-4.3" />
+  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" groups="pdk" remote="github" revision="cm-10.2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -122,7 +122,7 @@
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-10.2" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="github" revision="cm-10.2" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="github" revision="cm-10.2" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -211,7 +211,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="cm-10.2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-10.2" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="AOSP-S4/android_frameworks_av" remote="github" revision="jb-4.3" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.2" />
   <project path="frameworks/base" name="AOSP-S4/android_frameworks_base" remote="github" revision="jb-4.3" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="github" revision="cm-10.2" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" remote="github" revision="cm-10.2" />
@@ -231,7 +231,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="github" revision="cm-10.2" />
-  <project path="frameworks/opt/telephony" name="AOSP-S4/android_frameworks_opt_telephony" remote="github" revision="jb-4.3" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="github" revision="cm-10.2" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-10.2" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="github" revision="cm-10.2" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -296,7 +296,7 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="AOSP-S4/android_packages_apps_Phone" remote="github" revision="jb-4.3" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" revision="cm-10.2" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -322,7 +322,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="AOSP-S4/android_packages_providers_TelephonyProvider" remote="github" revision="jb-4.3" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-10.2" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -372,9 +372,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.2" />
-  <project path="system/core" name="AOSP-S4/android_system_core" groups="pdk" remote="github" revision="jb-4.3" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="github" revision="cm-10.2" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.2" />
-  <project path="system/media" name="platform/system/media" />
+  <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-10.2" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.2" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.2" />
