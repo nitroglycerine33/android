@@ -16,11 +16,11 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-10.2" />
+  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-10.2" groups="pdk" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" revision="cm-10.2" />
+  <project path="dalvik" name="AOSP-S4/android_dalvik" remote="github" revision="jb-4.3" />
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="cm-10.2" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="github" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -33,8 +33,8 @@
   <project path="device/samsung/jf-common" name="AOSP-S4/android_device_samsung_jf-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_samsung_jfltexx" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltevzw" name="nitroglycerine33/android_device_samsung_jfltevzw" groups="pdk" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" groups="pdk" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="jb-4.3" />
+  <project path="device/samsung/qcom-common" name="AOSP-S4/android_device_samsung_qcom-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -68,7 +68,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-10.2" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -77,6 +77,7 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-10.2" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fat32lib" name="platform/external/fat32lib" revision="jb-mr1.1-release" />
@@ -84,6 +85,7 @@
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-10.2" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" remote="github" revision="cm-10.2" />
@@ -122,7 +124,7 @@
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-10.2" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="github" revision="cm-10.2" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="github" revision="cm-10.2" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -211,7 +213,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="cm-10.2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-10.2" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.2" />
+  <project path="frameworks/av" name="AOSP-S4/android_frameworks_av" remote="github" revision="jb-4.3" />
   <project path="frameworks/base" name="AOSP-S4/android_frameworks_base" remote="github" revision="jb-4.3" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="github" revision="cm-10.2" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" remote="github" revision="cm-10.2" />
@@ -372,9 +374,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.2" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="github" revision="cm-10.2" />
+  <project path="system/core" name="AOSP-S4/android_system_core" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.2" />
-  <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-10.2" />
+  <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.2" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.2" />
