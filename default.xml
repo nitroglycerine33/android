@@ -32,7 +32,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/jf-common" name="AOSP-S4/android_device_samsung_jf-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_samsung_jfltexx" groups="pdk" remote="github" revision="jb-4.3" />
-  <project path="device/samsung/jfltevzw" name="nitroglycerine33/android_device_samsung_jfltevzw" groups="pdk" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/jfltevzw" name="nitroglycerine33/android_device_samsung_jfltevzw" groups="pdk" remote="github" revision="jb43" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/qcom-common" name="AOSP-S4/android_device_samsung_qcom-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
