@@ -304,7 +304,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.2" />
-  <project path="packages/apps/Settings" name="AOSP-S4/android_packages_apps_Settings" remote="github" revision="jb-4.3" />
+  <project path="packages/apps/Settings" name="nitroglycerine33/android_packages_apps_Settings" remote="github" revision="jb43" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
