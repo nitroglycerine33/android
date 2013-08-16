@@ -30,7 +30,7 @@
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/jf-common" name="AOSP-S4/android_device_samsung_jf-common" groups="pdk" remote="github" revision="jb-4.3" />
+  <project path="device/samsung/jf-common" name="nitroglycerine33/android_device_samsung_jf-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_samsung_jfltexx" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltevzw" name="nitroglycerine33/android_device_samsung_jfltevzw" groups="pdk" remote="github" revision="jb43" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="jb-4.3" />
