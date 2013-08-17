@@ -215,7 +215,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-10.2" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOSP-S4/android_frameworks_av" remote="github" revision="jb-4.3" />
-  <project path="frameworks/base" name="nitroglycerine33/frameworks_base" remote="github" revision="jb4.3" />
+  <project path="frameworks/base" name="nitroglycerine33/android_frameworks_base" remote="github" revision="jb4.3" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="github" revision="cm-10.2" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" remote="github" revision="cm-10.2" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
