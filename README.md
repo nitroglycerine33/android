@@ -1,15 +1,23 @@
 android
 =======
 
-4.2.2 manifest
+4.3 manifest
 
-Welcome to Elemental X! You are free to build this for your own use. If you port it to another device I ask you to please link back to elementalxdesigns.com and would appreciate you sharing your work on there as well. Thanks!
+Welcome to Eclipse! You are free to build this for your own use. If you port it to another device I ask you to please link back to elementalxdesigns.com and would appreciate you sharing your work on there as well. Thanks!
 
 To sync the source use the following commands:
 
-repo init -u https://github.com/nitroglycerine33/android.git -b jb422
+repo init -u https://github.com/nitroglycerine33/android.git -b jb43
 
 repo sync
+
+
+To build:
+
+source build/envsetup.sh
+lunch
+*choose device
+make eclipse -j* (choose thread number)
 
 
 For detailed building instructions:
