@@ -245,7 +245,7 @@
   <project path="frameworks/opt/telephony" name="nitroglycerine33/android_frameworks_opt_telephony" remote="github" revision="jb43" />
   <project path="frameworks/opt/vcard" name="nitroglycerine33/android_frameworks_opt_vcard" remote="github" revision="jb43" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="github" revision="cm-10.2" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="nitroglycerine33/android_frameworks_support" remote="github" revision="cm-10.2" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
