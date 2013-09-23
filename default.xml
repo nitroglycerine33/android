@@ -312,7 +312,6 @@
   <project path="packages/apps/ContactsCommon" name="nitroglycerine33/packages_apps_ContactsCommon" remote="github" revision="jb4.3" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="nitroglycerine33/packages_apps_Dialer" remote="github" revision="jb4.3"  />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
   <project path="packages/apps/Email" name="nitroglycerine33/packages_apps_Email-1" remote="github" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="nitroglycerine33/android_packages_apps_Exchange" remote="github" revision="jb43" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" remote="github" revision="cm-10.2" />
