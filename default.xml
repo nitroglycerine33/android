@@ -258,7 +258,6 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="github" revision="cm-10.2" />
   <project path="frameworks/opt/telephony" name="nitroglycerine33/android_frameworks_opt_telephony" remote="github" revision="jb43" />
-  <project path="frameworks/opt/telephony-msim" name="nitroglycerine33/android_frameworks_opt_telephony-msim" remote="github" revision="cm-10.2" />
   <project path="frameworks/opt/vcard" name="nitroglycerine33/android_frameworks_opt_vcard" remote="github" revision="jb43" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="github" revision="cm-10.2" groups="pdk" />
   <project path="frameworks/support" name="nitroglycerine33/android_frameworks_support" remote="github" revision="cm-10.2" />
