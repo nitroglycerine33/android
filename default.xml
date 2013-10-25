@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="nitroglycerine33/android_build" remote="github" revision="jb43" >
+  <project path="build" name="AOSP-S4/android_build" remote="github" revision="jb-4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
@@ -20,7 +20,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="nitroglycerine33/android_dalvik" remote="github" revision="jb43" />
+  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="cm-10.2" />
   <project path="device/asus/flo" name="nitroglycerine33/android_device_asus_flo" remote="github" revision="cm-10.2" />
   <project path="device/asus/grouper" name="nitroglycerine33/android_device_asus_grouper" remote="github" revision="cm-10.2" />
