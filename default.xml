@@ -372,4 +372,5 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="vendor/samsung" name="AOSP-S4-KK/android_vendor_samsung" remote="github" revision="kk-4.4" />
   <project path="vendor/eclipse" name="nitroglycerine33/android_vendor_eclipse" remote="github" revision="kk4.4" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
 </manifest>
