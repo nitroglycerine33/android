@@ -25,7 +25,7 @@
   <project path="device/motorola/qcom-common" name="nitroglycerine33/android_device_motorola_qcom-common" remote="github" revision="cm-11.0" />
   <project path="device/motorola/xt1060" name="nitroglycerine33/android_device_motorola_xt1060" remote="github" revision="cm-11.0" />
   <project path="device/samsung/jf-common" name="AOSP-S4-KK/platform_device_samsung_jf-common" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/jfltevzw" name="nitroglycerine33/platform_device_samsung_jfltevzw" groups="pdk" remote="github" revision="kk44" />
+  <project path="device/samsung/jfltevzw" name="nitroglycerine33/android_device_samsung_jfltevzw" groups="pdk" remote="github" revision="kk44" />
   <project path="vendor/brood" name="treken/vendor_brood" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4-KK/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="device/samsung/qcom-common" name="AOSP-S4-KK/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />
